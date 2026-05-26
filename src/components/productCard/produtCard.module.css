@@ -1,0 +1,29 @@
+.produtoCard {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 12px;
+  width: 180px;
+}
+
+.produtoCard h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.produtoCard p {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.produtoCard button {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.removeButton {
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+}

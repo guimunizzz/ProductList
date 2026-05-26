@@ -1,0 +1,75 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 6px 14px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.saveButton {
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+}
+
+.cancelButton {
+  background: #f44336;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background: #f0f0f0;
+}
+
+.modalContent {
+  margin-top: 12px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 320px;
+}
+
+.modalContent h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.modalContent input,
+.modalContent select {
+  padding: 6px 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 100%;
+}
+
+.modalContent .actions {
+  display: flex;
+  gap: 8px;
+}
+
+.produtosContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+
